@@ -1,5 +1,5 @@
 --1. test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
---CREATE TABLE employee (id INT, name VARCHAR (50) NOT NULL, birthday DATE, email VARCHAR(100));
+CREATE TABLE employee (id INT, name VARCHAR (50) NOT NULL, birthday DATE, email VARCHAR(100));
 --2. Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 insert into employee (id, name, email, birthday) values (1, 'Sharyl Escalero', 'sescalero0@epa.gov', '1982-05-05');
 insert into employee (id, name, email, birthday) values (2, 'Kenton Emes', 'kemes1@alibaba.com', '1968-09-05');
