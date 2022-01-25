@@ -10,5 +10,5 @@ insert into employee (id, name, email, birthday) values (5, 'Giorgi Alp', 'galp4
 UPDATE employee SET name='JOHN DOE', birthday='1900-01-01' WHERE name LIKE 'S%';
 UPDATE employee SET email='hebele@hubele.com' WHERE email ILIKE 'C%U';
 --4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
-DELETE FROM employee WHERE name ıLIKE 'Al%';
+DELETE FROM employee WHERE name ILIKE 'Al%';
 DELETE FROM employee WHERE email ILIKE 'sh%';
